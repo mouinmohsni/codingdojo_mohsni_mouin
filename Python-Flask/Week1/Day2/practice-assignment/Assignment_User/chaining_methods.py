@@ -31,10 +31,36 @@ name_1 = user( "mouin" , "mohsni", "mouin.mohsni@" ,1000)
 name_2 = user( "nassim" , "chaaben", "nassim.chaaben@" ,3000)
 name_3 = user( "amin" , "mlayah", "nassim.chaaben@",100 )
 
-name_1.make_deposit(500)
-name_1.make_deposit(500)
-name_1.make_deposit(1500)
-name_1.make_withdrawal(500)
-name_1.display_user_balance()
 
-name_1.make_deposit(1000).make_deposit(1000).make_deposit(1000).make_withdrawal(200).display_user_balance()
+class BankAccount:
+    accounts=[]
+    def __init__(self, int_rate=0.01, balance=0): 
+        self.int_rate = int_rate
+        self.balance = balance
+        BankAccount.accounts.append(self)
+
+    def deposit(self, amount):
+        self.balance += amount
+        return self
+
+    def withdraw(self, amount):
+        if self.balance >= amount:
+            self.balance -= amount
+        else:
+            print("Insufficient funds: Charging a $5 fee")
+            self.balance -= amount-5
+        return self
+
+    def display_account_info(self):
+        print(f"balance : {self.balance} ")
+        return self
+
+    def yield_interest(self):
+        self.balance +=(self.int_rate*self.balance)
+        return self
+
+class User:
+    def __init__(self, name, email):
+        self.name = name
+        self.email = email
+        self.account = BankAccount(int_rate=0.02, balance=0)	# added this line
