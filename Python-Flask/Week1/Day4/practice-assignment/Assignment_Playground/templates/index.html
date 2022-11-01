@@ -12,12 +12,13 @@
     border:2px  solid black ;
     display: flex;
 }
-div{ display: flex;
+div{
+    display: flex;
     margin: 5px;
     flex-wrap: wrap;
+    justify-content: center;
 
 }
-
 
     </style>
 </head>
@@ -25,8 +26,9 @@ div{ display: flex;
 <h1> hello</h1>
 
 <div>
+
     {% for i in range(0,num) %}
-        <div class="bg" style="background-color:{{color}}"></div>
+        <div class="bg" style="background-color:{{color}};"></div>
     {% endfor %}
 </div>
 

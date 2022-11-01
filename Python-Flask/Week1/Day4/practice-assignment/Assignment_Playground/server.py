@@ -1,3 +1,4 @@
+from ast import Num
 from flask import Flask, render_template
 app = Flask(__name__)
 
@@ -5,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template("index.html")
+    return render_template("index.html",num=1,color="green")
 
 
 @app.route('/play')
