@@ -1,0 +1,36 @@
+INSERT INTO dojos (name)
+ VALUES
+ ('konoha'), ('kirii'), ('suna');
+DELETE FROM dojos;
+INSERT INTO dojos (name)
+ VALUES
+ ('konoha'), ('kirii'), ('suna');
+ SELECT * FROM dojos_and_ninjas_schema.dojos;
+ 
+ INSERT INTO ninjas (firs_name, last_name,age, dojo_id )
+ VALUES
+ ('naruto','usumaki',15,7),
+ ('sasku','uchiha',16,7), 
+ ('sakura', 'haruno',14,7);
+ 
+SELECT * FROM dojos_and_ninjas_schema.ninjas;
+INSERT INTO ninjas (firs_name, last_name,age, dojo_id )
+ VALUES
+ ('geiraya','usumaki',35,8),
+ ('tsunader','uchiha',134,8), 
+ ('ohrichimaro', 'haruno',136,8);
+ 
+ INSERT INTO ninjas (firs_name, last_name,age, dojo_id )
+ VALUES
+ ('lee','usumaki',19,9),
+ ('ichida','uchiha',18,9), 
+ ('timari', 'haruno',16,9);
+ SELECT * FROM ninjas WHERE  dojo_id=7 ;
+ SELECT * FROM ninjas ORDER BY  dojo_id ASC;
+ 
+ SELECT * FROM dojos
+LEFT JOIN ninjas ON dojos.id = ninjas.dojo_id
+	WHERE dojos.id = (SELECT id FROM dojos ORDER BY id DESC LIMIT 1);
+    
+SELECT * FROM dojos
+WHERE dojos.id = (SELECT dojo_id FROM ninjas ORDER BY dojo_id DESC LIMIT 1);

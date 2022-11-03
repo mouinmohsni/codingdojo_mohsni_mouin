@@ -1,0 +1,24 @@
+SELECT * FROM users_shema.users;
+SELECT * FROM users_shema.users;
+insert into users (first_name) 
+values ('Slim');
+
+insert into users (first_name, last_name, email) 
+values ('mouni', 'Saad', 'mounir@gmail.com');
+
+insert into users (first_name, last_name, email) 
+values ('ali', 'aoui', 'ali@gmail.com');
+SELECT * FROM users;
+SELECT  * FROM users
+WHERE email='ali@gmail.com';
+
+SELECT  * FROM users
+WHERE id=3;
+update users set last_name ='Pancakes'
+where id=3;
+delete from users where id=2 ;
+
+SELECT * FROM users ORDER BY first_name ;
+
+SELECT * FROM users ORDER BY first_name DESC;
+
