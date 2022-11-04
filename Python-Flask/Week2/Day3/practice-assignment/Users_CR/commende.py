@@ -1,27 +1,31 @@
 #---------------- creation dossier 
-# # mkdir  nom de dossier   :cree un dossier
-# cd nom de dossier : entrer dans le dossier 
-# pipeven install flask pymysql
-# ls : voir ce que se trouve dans le sossier 
+
+# ls
+# mkdir Users_CRUD
+# cd Users_CRUD/
+# pipenv install PyMySQL flask
 # mkdir flask_app
-# touche srver.py
-# cd flask_app
+# touch server.py
+# cd flask_app/
 # mkdir config contollers models static templates 
-# toche __init__.py
-# cd config
-# touche mysqlconnection.py
-# cd..
-# cd controllers
-#touche (nom de votre tableau dans la bd au pluriels)_____s.py_compile
-#cd..
-# cd models
-#touche (nom de votre tableau dans la bd au singulier)_____.py_compile
-#cd..
-# cd static
-#mkdir css js
-#cd..
-# cd templaits
-# touche index.html 
+# touch __init__.py
+# ls
+# cd flask_app/
+# cd config/
+# touch mysqlconnection.py
+# cd ..
+# cd controllers/
+# touch users.py
+# cd ..
+# cd models/
+# touch user.py
+# cd ..
+# cd static/
+# mkdir css js
+# cd ..
+# cd templaits/
+# touch index.html
+# code .
 
 
 #--------------------------------server.py-------------------------------------------
