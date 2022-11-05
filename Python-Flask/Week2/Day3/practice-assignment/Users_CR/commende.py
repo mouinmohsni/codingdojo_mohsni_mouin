@@ -1,31 +1,31 @@
 #---------------- creation dossier 
 
-# ls
-# mkdir Users_CRUD
-# cd Users_CRUD/
-# pipenv install PyMySQL flask
-# mkdir flask_app
-# touch server.py
-# cd flask_app/
-# mkdir config contollers models static templates 
-# touch __init__.py
-# ls
-# cd flask_app/
-# cd config/
-# touch mysqlconnection.py
-# cd ..
-# cd controllers/
-# touch users.py
-# cd ..
-# cd models/
-# touch user.py
-# cd ..
-# cd static/
-# mkdir css js
-# cd ..
-# cd templaits/
-# touch index.html
-# code .
+ls
+mkdir Users_CRUD
+cd Users_CRUD/
+pipenv install PyMySQL flask
+mkdir flask_app
+touch server.py
+cd flask_app/
+mkdir config contollers models static templates 
+touch __init__.py
+ls
+cd config/
+ls
+touch mysqlconnection.py
+cd cd..
+cd controllers/
+touch users.py
+cd ..
+cd models/
+touch user.py
+cd ..
+cd static/
+mkdir css js
+cd ..
+cd templaits/
+touch index.html
+code .
 
 
 #--------------------------------server.py-------------------------------------------
