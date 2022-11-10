@@ -4,7 +4,7 @@ ls
 mkdir code_rev
 cd Dojo_Survey_With_Validation/
 pipenv install PyMySQL flask
-mkdir flask_app
+
 touch server.py
 cd flask_app/
 mkdir config controllers models static templates 
@@ -13,7 +13,7 @@ ls
 cd config/
 ls
 touch mysqlconnection.py
-cd cd..
+cd..
 cd controllers/
 touch users.py
 cd ..
@@ -89,7 +89,7 @@ code .
 # from flask_app.models.___ import Class
 
 
-# @app.route('/user/new')
+# @app.route('/')
 # def index():
 #     return  render_template("index.html")
 
