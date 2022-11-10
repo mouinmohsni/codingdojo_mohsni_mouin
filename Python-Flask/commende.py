@@ -1,13 +1,13 @@
 #---------------- creation dossier 
 
 ls
-mkdir Users_CRUD
-cd Users_CRUD/
+mkdir code_rev
+cd Dojo_Survey_With_Validation/
 pipenv install PyMySQL flask
 mkdir flask_app
 touch server.py
 cd flask_app/
-mkdir config contollers models static templates 
+mkdir config controllers models static templates 
 touch __init__.py
 ls
 cd config/
@@ -23,8 +23,10 @@ cd ..
 cd static/
 mkdir css js
 cd ..
-cd templaits/
+cd templates/
 touch index.html
+cd ..
+cd ..
 code .
 
 
