@@ -4,8 +4,8 @@ ls
 mkdir code_rev
 cd Dojo_Survey_With_Validation/
 pipenv install PyMySQL flask
-
 touch server.py
+mkdir flask_app
 cd flask_app/
 mkdir config controllers models static templates 
 touch __init__.py
