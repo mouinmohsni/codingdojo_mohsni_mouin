@@ -12,7 +12,7 @@ class Ninja {
         console.log(` my ninja name is ${this.constructor.name}`); // what a defferant about 
         console.log(` my ninja name is ${this.name}`); // what a defferant about 
     }
-    
+
     showStats(){
         console.log(` my ninja name is ${this.name} i have  like stats  ${this.health} in health ${this.speed} in speed and ${this.strength} n strength `);
     }
@@ -34,7 +34,7 @@ class Sensei  extends Ninja {
     speakWisdom() {
 
         const message = super.drinkSake();
-        console.log(message);
+        //console.log(message);
 
     }
 
