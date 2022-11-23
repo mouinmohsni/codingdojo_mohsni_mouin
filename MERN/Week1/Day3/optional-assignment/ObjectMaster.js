@@ -24,32 +24,29 @@ const pokémon = Object.freeze([
     { "id": 148, "name": "Dragonair",  "types": ["dragon"] }
 ]);
 
-// const div_3 = pokémon.filter( div  => div.id % 3==0);
-// console.log(div_3);
+const div_3 = pokémon.filter( div  => div.id % 3==0);
+console.log(div_3);
 
-// const tireType = pokémon.filter( fire  => fire.types[0] == "fire");
-// console.log(tireType);
+const tireType = pokémon.filter( fire  => fire.types[0] == "fire");
+console.log(tireType);
 
-// const leng = pokémon.filter( p  => p.types.length >1);
-// console.log(leng);
+const leng = pokémon.filter( p  => p.types.length >1);
+console.log(leng);
 
-// const leng = pokémon.filter( p  => p.types.length >1);
-// console.log(leng);
+const pkleng = pokémon.filter( p  => p.types.length >1);
+console.log(leng);
 
-// const pkmname = pokémon.map( name => name.name)
-// console.log(pkmname);
+const pkmname = pokémon.map( name => name.name)
+console.log(pkmname);
 
-// const pkmname = pokémon.filter( pkid => pkid.id > 99).map(namepk => namepk.name )
-// console.log(pkmname);
+const pkm_99 = pokémon.filter( pkid => pkid.id > 99).map(namepk => namepk.name )
+console.log(pkm_99);
 
-// const pkmpoision = pokémon.filter( type  => type.types[0] == "poison").map(namepk => namepk.name )
-// console.log(pkmpoision);
+const pkmpoision = pokémon.filter( type  => type.types[0] == "poison").map(namepk => namepk.name )
+console.log(pkmpoision);
 
-// const pkmpoision = pokémon.filter( type  => type.types[0] == "poison").map(namepk => namepk.name )
-// console.log(pkmpoision);
-
-// const pkmflying = pokémon.filter( type  => type.types[1] == "flying").map(namepk => namepk.types[0] )
-// console.log(pkmflying);
+const pkmflying = pokémon.filter( type  => type.types[1] == "flying").map(namepk => namepk.types[0] )
+console.log(pkmflying);
 
 const pkmnormal = pokémon.filter( type  => type.types[0] == "normal")
 
