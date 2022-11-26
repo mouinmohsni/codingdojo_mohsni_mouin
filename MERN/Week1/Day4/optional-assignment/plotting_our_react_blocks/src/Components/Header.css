@@ -1,0 +1,49 @@
+.header_bg{
+    background-color: #6aa84f;
+    height: 150px;
+    display: block;
+    margin: 10px;
+   
+    
+   
+}
+
+.main {
+    background-color: red;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 500;
+    justify-content: space-between;
+    flex: 3;
+    padding: 5px;
+}
+.flex{
+    display: flex;
+    }
+
+.nav{
+    width: 200px;
+    height: 500px;
+    margin: 10px;
+    flex :1 ;
+    background-color: #6fa8dc ;
+}
+.border{
+    border: solid;
+    border-color: black;
+    border :2 px;
+}
+
+.adv{
+    height: 200px;
+    background-color:#b4a7d6 ;
+    margin: 5px;
+}
+.sub{
+ background-color:#ffd966 ;
+ margin: 5px;
+ flex :3px;
+ height: 295px;
+}
