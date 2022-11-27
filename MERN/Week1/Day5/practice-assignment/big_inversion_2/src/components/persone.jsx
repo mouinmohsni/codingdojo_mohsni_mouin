@@ -24,24 +24,3 @@ function persone(props) {
 }
 
 export default persone
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

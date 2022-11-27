@@ -1,0 +1,57 @@
+
+  .flex{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 250px;
+    width: 400px;
+    justify-content: space-between;
+  }
+
+  .ajustement{
+    height: 250px;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+
+.bt{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+input[type=text] {
+    color: white;
+    font-size: medium;
+    border: none;
+    border-bottom: 2px solid #4CAF50;
+    background-color: transparent;
+  }
+
+  .ajustement_text{
+    /* height: 250px; */
+    margin: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+  }
+  .flex_2{
+   
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   
+
+  }

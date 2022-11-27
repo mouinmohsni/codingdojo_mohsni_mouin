@@ -15,8 +15,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {people.map( pers => {
-            return <Persone firstname={pers.firstname} lastname={pers.lastname} age={pers.age} hairColor={pers.hairColor} /> 
+        {people.map( (pers,index) => {
+            return <Persone firstname={pers.firstname} lastname={pers.lastname} age={pers.age} hairColor={pers.hairColor} key={index}/> 
 
         })} 
       
