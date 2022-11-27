@@ -4,7 +4,7 @@ import './style.css'
 function Persone(props) {
     const [username, setUsername] = useState("");
     const [email ,setEmail ] = useState("");
-    const [lastnametname ,setLastname ] = useState("");
+    const [lastname ,setLastname ] = useState("");
     const [Password ,setPassword ] = useState("");
     const [confpass ,setConfpass ] = useState("");
 
@@ -50,22 +50,16 @@ function Persone(props) {
     <p>your confirm Password</p>
     </div>
     <div className='ajustement_text'> 
-        <p>{username} {lastnametname}</p>
+        <p>{username} {lastname}</p>
         <p>{email}</p>
         <p>{Password}</p>
         <p> {confpass}</p>
     </div>
 </div>
- 
-         
-         
-        
 
+</div>
 
-
- </div>
-
-  )
+    )
 }
 
 export default Persone
