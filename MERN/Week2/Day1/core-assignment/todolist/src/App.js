@@ -24,7 +24,8 @@ function App() {
     
       <Todo  addlists ={addlists}/>
       <div>
-          <Display lists={lists} supp ={supp} /> 
+          <Display lists={lists}  supp ={supp} setLists={setLists} /> 
+
         </div>
         
     </div>
