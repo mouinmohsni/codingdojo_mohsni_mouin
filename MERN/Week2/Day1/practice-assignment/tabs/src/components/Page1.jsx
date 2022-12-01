@@ -4,24 +4,22 @@ function page1(props) {
 
   const message = props.tab;
 
-  const onClickHandler = (e) => {
-    const message = props.tab;
-    console.log(message.tab1);
-  }
+  // const onClickHandler = (i) => {
+  //   const message = props.tab;
+  //   console.log(message.tab1);
+  // }
   return (
     <div>
-{message.map( (tab,i) => {
-return <button onClick={ (e) => onClickHandler(e, tab) }>  {tab} </button>
+{message.map((tab , i)=>{
 
-
-})}
-
-{/* <textarea > {props.tab1}</textarea>  */}
+<button> tab {tab.tab1}</button>
 
 
 
+})
 
 
+}
     </div>
   )
 }

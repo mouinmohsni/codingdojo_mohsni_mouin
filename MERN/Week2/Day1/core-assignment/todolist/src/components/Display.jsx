@@ -18,17 +18,10 @@ function Display({lists, setLists}) {
     })
     console.log("test 2");
     console.log(del);
-    setLists(del)
-        
-        
-        
-    };
+    setLists(del)};
 
-     const chek =function setTest(idx){
-        console.log(idx);
-    }
-    const style = test ? "styleok":"stylenan";
-    console.log(style);
+
+
 
 
 return (
@@ -39,7 +32,7 @@ return (
             <span className={style}>  <div>{list} </div></span> 
 
             {/* <input type="checkbox" onChange={e => setTest(e.target.checked)} />  */}
-            <input type="checkbox" onChange={setTest(idx)} /> 
+            <input type="checkbox" onChange={} /> 
             <button  onClick={(event)=>{handleSubmit(idx)}}>delete</button>
             </div>
         })} 
