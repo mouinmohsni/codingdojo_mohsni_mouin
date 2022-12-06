@@ -11,7 +11,7 @@ module.exports =(app)=>{ //  we should be group all routes
     app.get("/api/jokes/:_id", JokeController.findOneById);// ok
     
     // create route for get one random
-    app.get("/api/jokes/random", JokeController.findAllJokes);
+    app.get("/api/jokes/random", JokeController.findAllJokes); // ko
     
     // create route to add one
     app.post("/api/jokes/new", JokeController.CreateJoke); //ok
