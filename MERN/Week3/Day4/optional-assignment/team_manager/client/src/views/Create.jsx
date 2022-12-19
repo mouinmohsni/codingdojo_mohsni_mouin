@@ -2,7 +2,6 @@ import React from 'react'
 import './list.css'
 // import library------------------------------------------------------------------------------------------------------------------------
  import {useState} from 'react';                    // useEffect to render page one time  // useState to creater dynamic object 
- //import {Link} from "react-router-dom";                      // link to go in other  component
 import { useNavigate } from "react-router-dom";            // uneNavigate to redirect in an other root 
  import axios from 'axios';                                // axios to communicate with IPA
 

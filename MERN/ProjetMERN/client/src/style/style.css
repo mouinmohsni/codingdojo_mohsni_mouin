@@ -1,0 +1,110 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navBar{
+    height: 100px;
+    background-color: rgb(226, 222, 222);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navBar-img{
+    height: 100px;
+    width: auto;
+    margin: 50px;
+    display: block;
+    flex: 1 ;
+
+}
+.navBar img{
+    height: 100px;
+    width: auto;
+    margin: 50px;
+    display: block;
+
+}
+
+.navbar-menu{
+    display: flex;
+    justify-content:space-around ;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    padding-left: 35px;
+    flex: 3;
+    text-decoration: none;
+}
+/* .navbar-menu :before { content: '//' ;
+} */
+ 
+  
+
+/* CSS */
+.navbar-menu-item {
+
+       
+        
+      
+        color: #111827;
+        font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+        font-size: .875rem;
+        text-decoration: none #D1D5DB solid;
+    
+    }
+    
+.navBar-log{
+    flex: 1;
+    margin-right: 10px;
+}
+
+
+/* CSS */
+.button-7 {
+  background-color: #0095ff;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 5px;
+  outline: none;
+  padding: 8px .8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-7:hover,
+.button-7:focus {
+  background-color: #07c;
+}
+
+.button-7:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+.button-7:active {
+  background-color: #0064bd;
+  box-shadow: none;
+}
+ .navBar-log{
+    display: flex;
+    align-items: center;
+ }
+.getOne-body{
+  background-image: url('https://img.freepik.com/photos-gratuite/gens-dans-festival_1160-736.jpg?w=2000');
+  height: 900px;
+  /* filter: blur(1.3rem); */
+}
