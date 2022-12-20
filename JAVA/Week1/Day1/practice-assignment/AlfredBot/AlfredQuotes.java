@@ -34,6 +34,8 @@ public class AlfredQuotes {
 
         return message3;
     }
+
+
     
 	// NINJA BONUS
 	// See the specs to overload the guessGreeting method
