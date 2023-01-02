@@ -18,19 +18,8 @@ public class Main {
 		String number = System.console().readLine();
 		int i=Integer.parseInt(number);  
 
-		String newPwd =generator.getNewPasswordSet( i);
+		String newPwd =generator.getNewPasswordSet(i);
 		System.out.println(newPwd);
 
-		
-	
-	
-	
-
-        
-	// 	int randomNumber;
-	// 	Random randMachine = new Random();
-	// randomNumber = randMachine.nextInt();
-	// System.out.println(randomNumber);
-    
 	}
 }

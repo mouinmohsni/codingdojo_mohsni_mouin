@@ -35,8 +35,7 @@ const GetLand = (props) => {
                         <div className="row">
 
                             <div className="col-12 mt-auto mb-5 text-center">
-                                
-                                <h1 className="text-white mb-5">{Products[num].title}</h1>
+                              <h1 className="text-white mb-5">{Products[num].title}</h1>
                                 <a  href="#section_2"></a>
                                 <Link  className="btn custom-btn smoothscroll" to={`/login`} >Let's begin</Link>
                             </div>
@@ -44,14 +43,14 @@ const GetLand = (props) => {
                                 <div className="date-wrap">
                                     <h5 className="text-white">
                                         <i className="custom-icon bi-clock me-2"></i>
-                                        {Products[num].date}
+                                        {Products[num].date } 
                                     </h5>
                                 </div>
 
                                 <div className="location-wrap mx-auto py-3 py-lg-0">
                                     <h5 className="text-white">
                                         <i className="custom-icon bi-geo-alt me-2"></i>
-                                        {Products[num].location}
+                                        {Products[num].location} 
                                     </h5>
                                 </div>
 
@@ -114,13 +113,13 @@ const GetLand = (props) => {
                         </div>
                         <div className="col-lg-6 col-12">
                             <div className="about-text-wrap">
-                                <img src={product.image}/>
+                                 {product.image ? <img src={product.image}/> : "no image"}
 
                             </div>
                         </div>
 
                     </div>
-                </div>
+                </div> 
                     })}
             </section>
         </div>

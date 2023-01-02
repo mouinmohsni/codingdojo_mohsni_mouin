@@ -21,7 +21,7 @@ function App() {
       
       <Routes>
         <Route path="/home" element={<GetAll />} />
-        <Route path="/" element={<GetLand />} />
+        <Route path="/landing" element={<GetLand />} />
         
         <Route path="/register" element={<Register />} />
         <Route path="/CreateEvent" element={<CreateEvent />} />

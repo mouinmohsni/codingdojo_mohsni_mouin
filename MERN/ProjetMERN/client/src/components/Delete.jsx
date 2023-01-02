@@ -27,7 +27,7 @@ console.log(_id);
 
 
 
-  axios.delete(`http://localhost:8000/api/products/${_id}`)
+  axios.delete(`http://localhost:8000/api/products/${_id}` , {withCredentials:true})
   .then(response =>{
       console.log(response.data);
       console.log("delete is ok");

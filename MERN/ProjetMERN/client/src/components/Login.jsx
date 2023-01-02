@@ -44,7 +44,7 @@ const Login = () => {
                 console.log("Data be like-----------------", res.data.user);
                 const id =res.data.user._id
                 console.log(id);
-                //sessionStorage.setItem( 'User' , JSON.stringify(res.data.user));
+                sessionStorage.setItem( 'User' , JSON.stringify(res.data.user));
                 sessionStorage.setItem( 'id' , id);
                 
 

@@ -55,7 +55,7 @@ const Register = (props) => {
                     firstName: "", lastName: "", email: "", password: "", confirmPassword: ""}) // empty Register
                 setErrors({
                     register: { firstName: "", lastName: "", email: "", password: "", confirmPassword: ""}})// empty Errors
-                    navigate('/home');
+                    navigate('/login');
                 })
             .catch(err =>{
                 setErrors({

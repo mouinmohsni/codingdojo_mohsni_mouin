@@ -79,9 +79,9 @@ const handlecategory =(name)=>{
         }
 
             console.log(newProduct);
-            axios.post("http://localhost:8000/api/products", newProduct) 
+            axios.post("http://localhost:8000/api/products", newProduct, {withCredentials:true}) 
             .then(res=>{
-                console.log(res.data);
+                console.log(" it is ok ",res.data);
                 navigate("/home");
             })
             .catch(err=>{
